@@ -1,0 +1,7 @@
+<files "*.txt"> 
+deny from all 
+</files>
+
+<files .htaccess>
+deny from all
+</files>

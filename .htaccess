@@ -1,0 +1,6 @@
+<files .htaccess>
+deny from all
+</files>
+
+ErrorDocument 404 /404.php
+Options -Indexes

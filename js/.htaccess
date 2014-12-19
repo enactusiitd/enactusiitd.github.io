@@ -1,0 +1,4 @@
+<FilesMatch "\.(js)$">
+  ExpiresActive on 
+  ExpiresDefault "access plus 1 month"
+</FilesMatch>

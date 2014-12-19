@@ -1,0 +1,41 @@
+Abhishek Jain	ME1
+Abhishek Surana	EE
+Aditya Grover	UK
+Aditya Vikram Khandelwal	CH
+Agam Goel	EE
+Ankit Saxena	UK
+Anurag Kumar	TT
+Arpit Khandelwal	UK
+Ashutosh Mishra	UK
+B. Shriram	ME1
+Chetan Krishna	ME1
+Devesh Mohnot	BB
+Divish Gupta	EE
+Gowtham Ragavendar	UK	
+Isha Goyal	EE
+Ishaan Preet Singh	CS
+Karthik Mattu	EE
+Kartik Sachdev	UK
+Kishan Kumar Sachdeva	ME1
+Mayank Gupta	UK
+Monika Garbyal	TT
+Naman Vijay	MT
+Namit Jain	UK
+Neelam Ahuja	CH
+Nihit Singh	PH
+Nishika Garg	EE
+Nishit Jain	EE
+Prashant Garg	ME1
+Prateek Sachan	CE
+Priyabrata Bhuyan	CE
+Pushpa Jha	TT
+Rahul Mittal	UK
+Rippy Kumar	UK
+Sai Praneeth	CS
+Saurav Gupta	EE
+Shubham Bansal	UK	
+Sowmya Danta	TT
+Surabhi Jha	TT
+Udit Agrawal	CH
+Ujjwal Kant	EE
+Vaibhav Mittal	ME2

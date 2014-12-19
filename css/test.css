@@ -1,0 +1,68 @@
+.box {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 0 0 #e5e5e5;
+    margin: 0 0 2em 0;
+    padding: 3em;
+}
+.box > :last-child {
+    margin-bottom: 0;
+}
+.box.alt {
+    background: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    margin: 0 0 2em 0;
+    padding: 0 !important;
+    overflow:visible;
+}
+.image.fit  {
+			transition: all 0.25s ease;
+			margin: 0 0 10em 0;
+			}
+
+.image.fit img.phpSourced {
+			border-radius: 6px 6px 0 0;
+			}
+			
+.image.fit div.info {
+			padding: 0.05em 0.1em;
+			background:rgba(255,255,255,1);
+			text-align:left;
+			width:	inherit;
+			border-radius: 0 0 6px 6px;
+			color:#777;
+			overflow:hidden;
+			}
+			
+.image.fit div.info div.name {
+			font-weight: 400;
+			font-size:1em;
+			line-height:0.9em;
+			}
+			
+.image.fit div.info div.details {
+			font-weight: 300;
+			font-size:0.8em;
+			line-height:1.0em;
+			}
+
+.image.fit div.info div.details a {
+			color:#777;
+			text-decoration: none;
+}
+
+.image.fit:hover  {
+			transform:scale(1.2);
+			border:#777 solid 1px;
+			z-index:1000;
+			}
+
+.image.fit:hover div.info {
+			background:rgba(0,0,0,0.6);
+			color: #fff;
+			}
+			
+.image.fit:hover div.info div.details a {
+			color: #fff;
+			}

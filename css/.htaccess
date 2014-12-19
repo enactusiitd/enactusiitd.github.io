@@ -1,0 +1,9 @@
+<FilesMatch "\.css$">
+  ExpiresActive on 
+  ExpiresDefault "access plus 1 month"
+</FilesMatch>
+
+<FilesMatch "^style\.php$">
+  ExpiresActive on 
+  ExpiresDefault "access plus 1 minute"
+</FilesMatch>
