@@ -5,7 +5,7 @@ Menu(false,"Contact","#header nav > ul > li > a#menuContact");
 
 
 // define variables and set to empty values
-$phoneErr="";
+$phoneErr=$captchaErr="";
 $name=$email=$subject=$phone=$message="";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
      $phone=str_replace("-","",$phone);
      $phone=str_replace("+","",$phone);
      if (ctype_digit($phone));
-     else	$phoneErr="Sorry, " . $_POST["phone"] . " is not a valid phone number";
+     else	$phoneErr='"' . $_POST["phone"] . '" is not a valid phone number';
      $message=test_input($_POST["message"]);
 }
 
@@ -29,9 +29,16 @@ function test_input($data) {
 }
 
 function DisplayForm() {
-global $phoneErr,$name,$email,$subject,$phone,$message;
-echo '		<b>How about emailing us?</b>
-		<form action="' . htmlspecialchars($_SERVER["PHP_SELF"]) . '" method="post"><br/>
+global $captchaErr,$phoneErr,$name,$email,$subject,$phone,$message;
+if (($phoneErr)||($captchaErr))
+	echo '<div style="color:#e89980;">Sorry, this form could not be submitted, because ' . 
+	($phoneErr ? ($captchaErr ? $phoneErr . ' and ' . $captchaErr . '.'
+			: $phoneErr . '.') 
+	: $captchaErr . '.') . '
+	</div>';
+else 
+	echo '<b>How about emailing us?</b>';
+	echo '<form action="' . htmlspecialchars($_SERVER["PHP_SELF"]) . '" method="post">
 			<div class="row uniform 50%">
 				<div class="6u 12u(2)">
 					<input type="text" name="name" id="name" value="' . $name . '" placeholder="Name" required/>
@@ -47,17 +54,7 @@ echo '		<b>How about emailing us?</b>
 			</div>
 			<div class="row uniform 50%">
 				<div class="12u">
-					<input type="tel" name="phone" id="phone"';
-			if ($phoneErr) 
-				echo ' class="error" ';
-			echo 'value="';
-			if ($phoneErr);
-			else echo $phone;
-			echo '" placeholder="';
-			if ($phoneErr)
-			echo $phoneErr;
-			else echo 'Phone Number';
-			echo '" required/>
+					<input type="tel" name="phone" id="phone" value="' . $phone . '" placeholder="Phone Number" required/>
 				</div>
 			</div>
 			<div class="row uniform 50%">
@@ -105,8 +102,6 @@ else {
 	if ($resp != null && $resp->success) {
 		if ($phoneErr) {
 			DisplayForm();
-			echo '<style>input.error{border-color:#e89980;box-shadow:0 0 0 2px #e89980;}</style>
-			<script>$(document).ready(function() { $(".error").click(function() {$(this).removeClass("error");});});</script>';
 			}
 		else {
 			echo "Thank you for mailing us, we will get back to you soon<br>";
@@ -144,7 +139,7 @@ else {
 			}
 		}
 	else {
-	echo "Sorry, the captcha did not match.<br>";
+	$captchaErr="the captcha does not match";
 		DisplayForm();
 	}
 }
