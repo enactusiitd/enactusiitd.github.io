@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Name=pushScript
-Comment=Sends the repo to github
-Exec=xfce4-terminal -H -x /home/rijul/Desktop/Enactus-Website/pushScript.sh
-Path=/home/rijul/Desktop/Enactus-Website/
-Terminal=true
-Type=Application
-Categories=Utility;Application;Development;
