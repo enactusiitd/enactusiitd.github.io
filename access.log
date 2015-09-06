@@ -2655,3 +2655,4 @@
 127.0.0.1 - - [06/Sep/2015:20:02:02 +0530] "GET /css/style-wide.css HTTP/1.1" 200 424 "http://localhost/Team/Active.html" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0"
 127.0.0.1 - - [06/Sep/2015:20:02:02 +0530] "GET /css/font-awesome.min.css HTTP/1.1" 200 5379 "http://localhost/css/style.css" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:37.0) Gecko/20100101 Firefox/37.0"
 ::1 - - [06/Sep/2015:20:02:08 +0530] "OPTIONS * HTTP/1.0" 200 126 "-" "Apache/2.4.10 (Ubuntu) (internal dummy connection)"
+192.168.105.1 - - [06/Sep/2015:20:25:46 +0530] "HEAD / HTTP/1.0" 200 273 "-" "-"
