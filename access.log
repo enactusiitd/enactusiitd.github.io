@@ -3171,3 +3171,5 @@
 127.0.0.1 - - [24/Oct/2015:21:30:10 +0530] "GET /css/images/overlay.png HTTP/1.1" 200 15568 "http://localhost/css/style.css" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0"
 127.0.0.1 - - [24/Oct/2015:21:30:10 +0530] "GET /images/background.jpg HTTP/1.1" 200 62542 "http://localhost/css/style.css" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0"
 127.0.0.1 - - [24/Oct/2015:21:30:10 +0530] "GET /fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 200 65751 "http://localhost/css/font-awesome.min.css" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0"
+127.0.0.1 - - [24/Oct/2015:21:33:01 +0530] "GET / HTTP/1.1" 200 2496 "http://localhost/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0"
+127.0.0.1 - - [24/Oct/2015:21:33:02 +0530] "GET /images/banner2.jpg HTTP/1.1" 304 182 "http://localhost/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:40.0) Gecko/20100101 Firefox/40.0"
