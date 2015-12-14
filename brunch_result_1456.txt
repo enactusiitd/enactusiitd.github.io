@@ -1,0 +1,660 @@
+Script started on Friday 11 December 2015 02:56:36 PM IST
+]0;rijul@rijul-Ubuntu: ~/android/temasek/cm-12.1rijul@rijul-Ubuntu:~/android/temasek/cm-12.1$ source build/n[Kenvsetup.sh 
+including device/generic/mini-emulator-arm64/vendorsetup.sh
+including device/generic/mini-emulator-x86_64/vendorsetup.sh
+including device/generic/mini-emulator-mips/vendorsetup.sh
+including device/generic/mini-emulator-armv7-a-neon/vendorsetup.sh
+including device/generic/mini-emulator-x86/vendorsetup.sh
+including vendor/cm/vendorsetup.sh
+including sdk/bash_completion/adb.bash
+including vendor/cm/bash_completion/git.bash
+including vendor/cm/bash_completion/repo.bash
+]0;rijul@rijul-Ubuntu: ~/android/temasek/cm-12.1rijul@rijul-Ubuntu:~/android/temasek/cm-12.1$ bu[Krunch titan 
+including vendor/cm/vendorsetup.sh
+Looking for dependencies
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=5.1.1
+CM_VERSION=12.1-20151211-UNOFFICIAL-titan
+TARGET_PRODUCT=cm_titan
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=krait
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-4.2.0-19-generic-x86_64-with-Ubuntu-15.10-wily
+HOST_BUILD_TYPE=release
+BUILD_ID=LMY48Y
+OUT_DIR=/home/rijul/android/temasek/cm-12.1/out
+============================================
+
+make: Entering directory '/home/rijul/android/temasek/cm-12.1'
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=5.1.1
+CM_VERSION=12.1-20151211-UNOFFICIAL-titan
+TARGET_PRODUCT=cm_titan
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=krait
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-4.2.0-19-generic-x86_64-with-Ubuntu-15.10-wily
+HOST_BUILD_TYPE=release
+BUILD_ID=LMY48Y
+OUT_DIR=/home/rijul/android/temasek/cm-12.1/out
+============================================
+find: `dummy': No such file or directory
+find: `../../../../../../external/hamcrest/src': No such file or directory
+find: `../../../../../../external/junit/src/org': No such file or directory
+find: `../../../../../../external/hamcrest/src': No such file or directory
+build/core/copy_headers.mk:15: warning: overriding recipe for target '/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/include/qcom/display/copybit.h'
+build/core/copy_headers.mk:15: warning: ignoring old recipe for target '/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/include/qcom/display/copybit.h'
+build/core/copy_headers.mk:15: warning: overriding recipe for target '/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/include/qcom/display/copybit_priv.h'
+build/core/copy_headers.mk:15: warning: ignoring old recipe for target '/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/include/qcom/display/copybit_priv.h'
+build/core/Makefile:46: warning: overriding recipe for target '/home/rijul/android/temasek/cm-12.1/out/target/product/titan/system/bin/rild'
+build/core/base_rules.mk:550: warning: ignoring old recipe for target '/home/rijul/android/temasek/cm-12.1/out/target/product/titan/system/bin/rild'
+build/core/Makefile:46: warning: overriding recipe for target '/home/rijul/android/temasek/cm-12.1/out/target/product/titan/system/lib/libril.so'
+build/core/base_rules.mk:550: warning: ignoring old recipe for target '/home/rijul/android/temasek/cm-12.1/out/target/product/titan/system/lib/libril.so'
+No private recovery resources for TARGET_DEVICE titan
+make  -C kernel/motorola/msm8226 O=/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/KERNEL_OBJ ARCH=arm CROSS_COMPILE="/home/rijul/android/temasek/cm-12.1/prebuilts/misc/linux-x86/ccache/ccache arm-eabi-" VARIANT_DEFCONFIG= SELINUX_DEFCONFIG= titan_defconfig
+make[1]: Entering directory '/home/rijul/android/temasek/cm-12.1/kernel/motorola/msm8226'
+[32mtarget Strip:[0m init (/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/EXECUTABLES/init_intermediates/init)
+[36mInstall: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/root/sbin/healthd[0m
+[36mInstall: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/root/sbin/mkfs.f2fs[0m
+[36mInstall: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/minivold[0m
+[36mInstall: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/e2fsck[0m
+[36mInstall: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/mke2fs[0m
+[36mInstall: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/tune2fs[0m
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/fsck.exfat -> mount.exfat
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/mkfs.exfat -> mount.exfat
+[36mInstall: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/bu[0m
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/busybox -> recovery
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/getprop -> recovery
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/make_ext4fs -> recovery
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/minizip -> recovery
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/reboot -> recovery
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/sdcard -> recovery
+  GEN     /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/KERNEL_OBJ/Makefile
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/setup_adbd -> recovery
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/setprop -> recovery
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/start -> recovery
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/stop -> recovery
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/vdc -> recovery
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/[ -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/[[ -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/ash -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/awk -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/basename -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/bbconfig -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/blkid -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/bzcat -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/bzip2 -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/bunzip2 -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/cal -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/cat -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/catv -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/chattr -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/chcon -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/chgrp -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/chmod -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/chown -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/chroot -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/cksum -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/clear -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/cmp -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/cp -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/cpio -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/nanddump -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/nandwrite -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/cut -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/date -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/dc -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/dd -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/depmod -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/devmem -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/df -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/diff -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/dirname -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/dmesg -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/dos2unix -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/du -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/echo -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/egrep -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/env -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/expand -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/expr -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/false -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/fdisk -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/fgrep -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/find -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/fold -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/free -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/freeramdisk -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/fstrim -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/fuser -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/getenforce -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/getopt -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/getsebool -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/grep -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/groups -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/gunzip -> busybox
+drivers/usb/gadget/Kconfig:881:warning: defaults for choice values not supported
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/gzip -> busybox
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/rijul/android/temasek/cm-12.1/kernel/motorola/msm8226'
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/head -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/hexdump -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/id -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/insmod -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/install -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/kill -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/killall -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/killall5 -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/length -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/less -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/ln -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/losetup -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/ls -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/lsattr -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/lsmod -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/lspci -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/lsusb -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/lzcat -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/lzop -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/lzopcat -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/makedevs -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/matchpathcon -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/md5sum -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/mkdir -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/mkfifo -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/mkfs.ext2 -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/mknod -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/mkswap -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/mktemp -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/modinfo -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/modprobe -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/more -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/mount -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/mountpoint -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/mv -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/nice -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/nohup -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/od -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/patch -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/pgrep -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/pidof -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/pkill -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/printenv -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/printf -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/ps -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/pstree -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/pwd -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/rdev -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/readlink -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/realpath -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/renice -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/reset -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/resize -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/restorecon -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/rev -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/rm -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/rmdir -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/rmmod -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/run-parts -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/sed -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/selinuxenabled -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/seq -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/sestatus -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/setconsole -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/setenforce -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/setfiles -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/setsebool -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/setserial -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/setsid -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/sh -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/sha1sum -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/sha256sum -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/sha512sum -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/sleep -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/sort -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/split -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/stat -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/strings -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/stty -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/swapoff -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/swapon -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/sync -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/sysctl -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/tac -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/tail -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/tar -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/tee -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/test -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/time -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/top -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/touch -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/tr -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/true -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/ttysize -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/umount -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/uname -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/unexpand -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/uniq -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/unix2dos -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/unlzma -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/unlzop -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/unxz -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/unzip -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/uptime -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/usleep -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/uudecode -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/uuencode -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/watch -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/wc -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/which -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/whoami -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/xargs -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/xzcat -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/yes -> busybox
+Symlink: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/recovery/root/sbin/zcat -> busybox
+[32mtarget Java:[0m framework (/home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes)
+[32mtarget SharedLib:[0m libcutils (/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libcutils_intermediates/LINKED/libcutils.so)
+[32mtarget SharedLib:[0m libunwind-ptrace (/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libunwind-ptrace_intermediates/LINKED/libunwind-ptrace.so)
+[32mtarget Symbolic:[0m libsync (/home/rijul/android/temasek/cm-12.1/out/target/product/titan/symbols/system/lib/libsync.so)
+[32mtarget SharedLib:[0m libicuuc (/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/LINKED/libicuuc.so)
+[32mtarget SharedLib:[0m libft2 (/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libft2_intermediates/LINKED/libft2.so)
+[32mtarget Symbolic:[0m libnativebridge (/home/rijul/android/temasek/cm-12.1/out/target/product/titan/symbols/system/lib/libnativebridge.so)
+[32mtarget SharedLib:[0m libselinux (/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libselinux_intermediates/LINKED/libselinux.so)
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnvbocu.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_ext.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_io.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uinit.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/umutex.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unames.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uresbund.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uscript_props.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ushape.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustrcase.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustring.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustrtrns.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustr_wcs.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/utrie.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/utrie2_builder.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/bmpset.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unisetspan.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/brkeng.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/brkiter.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/caniter.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/chariter.o: file is empty
+/home/rijul/android/temasek/cm-12.1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locbased.o: file is empty
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/punycode.o:punycode.cpp:function u_strToPunycode_53: error: undefined reference to 'u_terminateUChars_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/punycode.o:punycode.cpp:function u_strFromPunycode_53: error: undefined reference to 'u_strlen_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/punycode.o:punycode.cpp:function u_strFromPunycode_53: error: undefined reference to 'u_terminateUChars_53'
+/home/rijul/android/temasek/cm-12.1/[32mtarget Symbolic:[0m libssl (/home/rijul/android/temasek/cm-12.1/out/target/product/titan/symbols/system/lib/libssl.so)
+out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/putil.o:putil.cpp:function u_versionFromUString_53: error: undefined reference to 'u_strlen_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucasemap.o:ucasemap.cpp:function ucasemap_internalUTF8Fold(UCaseMap const*, unsigned char*, int, unsigned char const*, int, UErrorCode*): error: undefined reference to 'u_strToUTF8_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucasemap.o:ucasemap.cpp:function _caseMap(UCaseMap const*, int (*)(UCaseProps const*, int, int (*)(void*, signed char), void*, unsigned short const**, char const*, int*), unsigned char*, int, unsigned char const*, UCaseContext*, int, int, UErrorCode*): error: undefined reference to 'u_strToUTF8_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucasemap.o:ucasemap.cpp:function ucasemap_setLocale_53: error: undefined reference to 'uloc_getName_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucasemap.o:ucasemap.cpp:function ucasemap_setLocale_53: error: undefined reference to 'uloc_getLanguage_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucasemap.o:ucasemap.cpp:function ucasemap_internalUTF8ToTitle_53: error: undefined reference to 'u_strToUTF8_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucasemap.o:ucasemap.cpp:function ucasemap_internalUTF8ToTitle_53: error: undefined reference to 'u_strToUTF8_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucasemap.o:ucasemap.cpp:function ucasemap_mapUTF8_53: error: undefined reference to 'u_terminateChars_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv2022.o:ucnv2022.cpp:function UConverter_fromUnicode_ISO_2022_CN_OFFSETS_LOGIC(UConverterFromUnicodeArgs*, UErrorCode*): error: undefined reference to 'ucnv_extSimpleMatchFromU_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv2022.o:ucnv2022.cpp:function UConverter_fromUnicode_ISO_2022_CN_OFFSETS_LOGIC(UConverterFromUnicodeArgs*, UErrorCode*): error: undefined reference to 'ucnv_extSimpleMatchFromU_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv2022.o:ucnv2022.cpp:function UConverter_fromUnicode_ISO_2022_KR_OFFSETS_LOGIC(UConverterFromUnicodeArgs*, UErrorCode*): error: undefined reference to 'ucnv_extSimpleMatchFromU_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv2022.o:ucnv2022.cpp:function UConverter_fromUnicode_ISO_2022_JP_OFFSETS_LOGIC(UConverterFromUnicodeArgs*, UErrorCode*): error: undefined reference to 'ucnv_extSimpleMatchFromU_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_load_53: error: undefined reference to 'ucnv_io_countKnownConverters_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_unloadSharedDataIfReady_53.part.4: error: undefined reference to 'umtx_lock_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_unloadSharedDataIfReady_53.part.4: error: undefined reference to 'umtx_unlock_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_incrementRefCount_53: error: undefined reference to 'umtx_lock_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_incrementRefCount_53: error: undefined reference to 'umtx_unlock_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_loadSharedData_53: error: undefined reference to 'ucnv_io_getConverterName_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_loadSharedData_53: error: undefined reference to 'ucnv_io_stripASCIIForCompare_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_loadSharedData_53: error: undefined reference to 'umtx_lock_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_loadSharedData_53: error: undefined reference to 'umtx_unlock_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function initAvailableConvertersList(UErrorCode&): error: undefined reference to 'ucnv_openAllNames_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_flushCache_53: error: undefined reference to 'umtx_lock_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_flushCache_53: error: undefined reference to 'umtx_unlock_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_bld_countAvailableConverters_53: error: undefined reference to 'icu_53::umtx_initImplPreInit(icu_53::UInitOnce&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_bld_countAvailableConverters_53: error: undefined reference to 'icu_53::umtx_initImplPostInit(icu_53::UInitOnce&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_bld_getAvailableConverter_53: error: undefined reference to 'icu_53::umtx_initImplPreInit(icu_53::UInitOnce&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function ucnv_bld_getAvailableConverter_53: error: undefined reference to 'icu_53::umtx_initImplPostInit(icu_53::UInitOnce&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv_bld.o:ucnv_bld.cpp:function converterData: error: undefined reference to '_Bocu1Data_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::hashCode() const: error: undefined reference to 'ustr_hashCharsN_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::init(char const*, signed char): error: undefined reference to 'uloc_getName_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::init(char const*, signed char): error: undefined reference to 'uloc_canonicalize_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::init(char const*, signed char): error: undefined reference to 'uloc_canonicalize_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::init(char const*, signed char): error: undefined reference to 'uloc_getName_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::locale_set_default_internal(char const*, UErrorCode&): error: undefined reference to 'uloc_getName_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::locale_set_default_internal(char const*, UErrorCode&): error: undefined reference to 'uloc_canonicalize_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::getISO3Language() const: error: undefined reference to 'uloc_getISO3Language_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::getISO3Country() const: error: undefined reference to 'uloc_getISO3Country_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::getLCID() const: error: undefined reference to 'uloc_getLCID_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o(.text._ZN6icu_536Locale15getISOCountriesEv+0x0): error: undefined reference to 'uloc_getISOCountries_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o(.text._ZN6icu_536Locale15getISOLanguagesEv+0x0): error: undefined reference to 'uloc_getISOLanguages_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::createKeywords(UErrorCode&) const: error: undefined reference to 'locale_getKeywords_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::getKeywordValue(char const*, char*, int, UErrorCode&) const: error: undefined reference to 'uloc_getKeywordValue_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::setKeywordValue(char const*, char const*, UErrorCode&): error: undefined reference to 'uloc_setKeywordValue_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::getBaseName() const: error: undefined reference to 'uloc_getBaseName_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locid.o:locid.cpp:function icu_53::Locale::getBaseName() const: error: undefined reference to 'uloc_getBaseName_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locutil.o:locutil.cpp:function icu_53::LocaleUtility::getAvailableLocaleNames(icu_53::UnicodeString const&): error: undefined reference to 'ures_openAvailableLocales_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbi.o:rbbi.cpp:function icu_53::RuleBasedBreakIterator::~RuleBasedBreakIterator(): error: undefined reference to 'icu_53::BreakIterator::~BreakIterator()'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbi.o:rbbi.cpp:function icu_53::initLanguageFactories(): error: undefined reference to 'icu_53::ICULanguageBreakFactory::ICULanguageBreakFactory(UErrorCode&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbi.o:rbbi.cpp:function icu_53::RuleBasedBreakIterator::RuleBasedBreakIterator(icu_53::RBBIDataHeader*, UErrorCode&): error: undefined reference to 'icu_53::BreakIterator::BreakIterator()'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbi.o:rbbi.cpp:function icu_53::RuleBasedBreakIterator::RuleBasedBreakIterator(icu_53::RBBIDataHeader const*, icu_53::RuleBasedBreakIterator::EDontAdopt, UErrorCode&): error: undefined reference to 'icu_53::BreakIterator::BreakIterator()'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbi.o:rbbi.cpp:function icu_53::RuleBasedBreakIterator::RuleBasedBreakIterator(unsigned char const*, unsigned int, UErrorCode&): error: undefined reference to 'icu_53::BreakIterator::BreakIterator()'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbi.o:rbbi.cpp:function icu_53::RuleBasedBreakIterator::RuleBasedBreakIterator(UDataMemory*, UErrorCode&): error: undefined reference to 'icu_53::BreakIterator::BreakIterator()'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbi.o:rbbi.cpp:function icu_53::RuleBasedBreakIterator::getLanguageBreakEngine(int): error: undefined reference to 'icu_53::umtx_initImplPreInit(icu_53::UInitOnce&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbi.o:rbbi.cpp:function icu_53::RuleBasedBreakIterator::getLanguageBreakEngine(int): error: undefined reference to 'icu_53::umtx_initImplPostInit(icu_53::UInitOnce&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbi.o:rbbi.cpp:function icu_53::RuleBasedBreakIterator::getLanguageBreakEngine(int): error: undefined reference to 'icu_53::UnhandledEngine::UnhandledEngine(UErrorCode&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbi.o:rbbi.cpp:function typeinfo for icu_53::RuleBasedBreakIterator: error: undefined reference to 'typeinfo for icu_53::BreakIterator'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbidata.o:rbbidata.cpp:function icu_53::RBBIDataWrapper::init(icu_53::RBBIDataHeader const*, UErrorCode&): error: undefined reference to 'utrie_unserialize_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbisetb.o:rbbisetb.cpp:function getFoldedRBBIValue: error: undefined reference to 'utrie_get32_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbisetb.o:rbbisetb.cpp:function icu_53::RBBISetBuilder::~RBBISetBuilder(): error: undefined reference to 'utrie_close_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbisetb.o:rbbisetb.cpp:function icu_53::RBBISetBuilder::getTrieSize(): error: undefined reference to 'utrie_serialize_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbisetb.o:rbbisetb.cpp:function icu_53::RBBISetBuilder::serializeTrie(unsigned char*): error: undefined reference to 'utrie_serialize_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbisetb.o:rbbisetb.cpp:function icu_53::RBBISetBuilder::build(): error: undefined reference to 'utrie_open_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/rbbisetb.o:rbbisetb.cpp:function icu_53::RBBISetBuilder::build(): error: undefined reference to 'utrie_setRange32_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund_cnv.o:resbund_cnv.cpp:function icu_53::ResourceBundle::constructForLocale(icu_53::UnicodeString const&, icu_53::Locale const&, UErrorCode&): error: undefined reference to 'ures_open_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::~ResourceBundle(): error: undefined reference to 'ures_close_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::ResourceBundle(UErrorCode&): error: undefined reference to 'ures_open_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::ResourceBundle(icu_53::ResourceBundle const&): error: undefined reference to 'ures_copyResb_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::ResourceBundle(UResourceBundle*, UErrorCode&): error: undefined reference to 'ures_copyResb_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::ResourceBundle(char const*, icu_53::Locale const&, UErrorCode&): error: undefined reference to 'ures_open_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::operator=(icu_53::ResourceBundle const&): error: undefined reference to 'ures_close_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::operator=(icu_53::ResourceBundle const&): error: undefined reference to 'ures_copyResb_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getString(UErrorCode&) const: error: undefined reference to 'ures_getString_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getBinary(int&, UErrorCode&) const: error: undefined reference to 'ures_getBinary_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getIntVector(int&, UErrorCode&) const: error: undefined reference to 'ures_getIntVector_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getUInt(UErrorCode&) const: error: undefined reference to 'ures_getUInt_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getInt(UErrorCode&) const: error: undefined reference to 'ures_getInt_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getName() const: error: undefined reference to 'ures_getName_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getKey() const: error: undefined reference to 'ures_getKey_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getType() const: error: undefined reference to 'ures_getType_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getSize() const: error: undefined reference to 'ures_getSize_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::hasNext() const: error: undefined reference to 'ures_hasNext_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::resetIterator(): error: undefined reference to 'ures_resetIterator_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getNext(UErrorCode&): error: undefined reference to 'ures_initStackObject_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getNext(UErrorCode&): error: undefined reference to 'ures_getNextResource_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getNext(UErrorCode&): error: undefined reference to 'ures_close_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getNextString(UErrorCode&): error: undefined reference to 'ures_getNextString_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getNextString(char const**, UErrorCode&): error: undefined reference to 'ures_getNextString_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::get(int, UErrorCode&) const: error: undefined reference to 'ures_initStackObject_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::get(int, UErrorCode&) const: error: undefined reference to 'ures_getByIndex_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::get(int, UErrorCode&) const: error: undefined reference to 'ures_close_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getStringEx(int, UErrorCode&) const: error: undefined reference to 'ures_getStringByIndex_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::get(char const*, UErrorCode&) const: error: undefined reference to 'ures_initStackObject_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::get(char const*, UErrorCode&) const: error: undefined reference to 'ures_getByKey_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getWithFallback(char const*, UErrorCode&): error: undefined reference to 'ures_initStackObject_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getWithFallback(char const*, UErrorCode&): error: undefined reference to 'ures_getByKeyWithFallback_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getStringEx(char const*, UErrorCode&) const: error: undefined reference to 'ures_getStringByKey_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getVersionNumber() const: error: undefined reference to 'ures_getVersionNumberInternal_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getVersion(unsigned char*) const: error: undefined reference to 'ures_getVersion_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getLocale() const: error: undefined reference to 'ures_getLocaleInternal_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/resbund.o:resbund.cpp:function icu_53::ResourceBundle::getLocale(ULocDataLocaleType, UErrorCode&) const: error: undefined reference to 'ures_getLocaleByType_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ubrk.o:ubrk.cpp:function ubrk_getLocaleByType_53: error: undefined reference to 'icu_53::BreakIterator::getLocaleID(ULocDataLocaleType, UErrorCode&) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ubrk.o:ubrk.cpp:function ubrk_open_53: error: undefined reference to 'icu_53::BreakIterator::createTitleInstance(icu_53::Locale const&, UErrorCode&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ubrk.o:ubrk.cpp:function ubrk_open_53: error: undefined reference to 'icu_53::BreakIterator::createCharacterInstance(icu_53::Locale const&, UErrorCode&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ubrk.o:ubrk.cpp:function ubrk_open_53: error: undefined reference to 'icu_53::BreakIterator::createWordInstance(icu_53::Locale const&, UErrorCode&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ubrk.o:ubrk.cpp:function ubrk_open_53: error: undefined reference to 'icu_53::BreakIterator::createLineInstance(icu_53::Locale const&, UErrorCode&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ubrk.o:ubrk.cpp:function ubrk_open_53: error: undefined reference to 'icu_53::BreakIterator::createSentenceInstance(icu_53::Locale const&, UErrorCode&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uchriter.o:uchriter.cpp:function icu_53::UCharCharacterIterator::~UCharCharacterIterator(): error: undefined reference to 'icu_53::CharacterIterator::~CharacterIterator()'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uchriter.o:uchriter.cpp:function icu_53::UCharCharacterIterator::hashCode() const: error: undefined reference to 'ustr_hashUCharsN_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uchriter.o:uchriter.cpp:function icu_53::UCharCharacterIterator::UCharCharacterIterator(): error: undefined reference to 'icu_53::CharacterIterator::CharacterIterator()'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uchriter.o:uchriter.cpp:function icu_53::UCharCharacterIterator::UCharCharacterIterator(unsigned short const*, int): error: undefined reference to 'icu_53::CharacterIterator::CharacterIterator(int)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uchriter.o:uchriter.cpp:function icu_53::UCharCharacterIterator::UCharCharacterIterator(unsigned short const*, int): error: undefined reference to 'u_strlen_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uchriter.o:uchriter.cpp:function icu_53::UCharCharacterIterator::UCharCharacterIterator(unsigned short const*, int, int): error: undefined reference to 'icu_53::CharacterIterator::CharacterIterator(int, int)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uchriter.o:uchriter.cpp:function icu_53::UCharCharacterIterator::UCharCharacterIterator(unsigned short const*, int, int): error: undefined reference to 'u_strlen_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uchriter.o:uchriter.cpp:function icu_53::UCharCharacterIterator::UCharCharacterIterator(unsigned short const*, int, int, int, int): error: undefined reference to 'icu_53::CharacterIterator::CharacterIterator(int, int, int, int)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uchriter.o:uchriter.cpp:function icu_53::UCharCharacterIterator::UCharCharacterIterator(icu_53::UCharCharacterIterator const&): error: undefined reference to 'icu_53::CharacterIterator::CharacterIterator(icu_53::CharacterIterator const&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uchriter.o:uchriter.cpp:function icu_53::UCharCharacterIterator::operator=(icu_53::UCharCharacterIterator const&): error: undefined reference to 'icu_53::CharacterIterator::operator=(icu_53::CharacterIterator const&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uchriter.o:uchriter.cpp:function typeinfo for icu_53::UCharCharacterIterator: error: undefined reference to 'typeinfo for icu_53::CharacterIterator'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uidna.o:uidna.cpp:function _internal_toASCII(unsigned short const*, int, unsigned short*, int, int, UStringPrepProfile*, UParseError*, UErrorCode*): error: undefined reference to 'u_terminateUChars_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uidna.o:uidna.cpp:function _internal_toUnicode(unsigned short const*, int, unsigned short*, int, int, UStringPrepProfile*, UParseError*, UErrorCode*): error: undefined reference to 'u_terminateUChars_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function .LTHUNK0: error: undefined reference to 'icu_53::UnicodeSetStringSpan::~UnicodeSetStringSpan()'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::freeze(): error: undefined reference to 'icu_53::BMPSet::BMPSet(int const*, int)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::freeze(): error: undefined reference to 'icu_53::UnicodeSetStringSpan::UnicodeSetStringSpan(icu_53::UnicodeSet const&, icu_53::UVector const&, unsigned int)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::freeze(): error: undefined reference to 'icu_53::UnicodeSetStringSpan::~UnicodeSetStringSpan()'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::span(unsigned short const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::BMPSet::span(unsigned short const*, unsigned short const*, USetSpanCondition) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::span(unsigned short const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::span(unsigned short const*, int, USetSpanCondition) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::span(unsigned short const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::UnicodeSetStringSpan(icu_53::UnicodeSet const&, icu_53::UVector const&, unsigned int)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::span(unsigned short const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::~UnicodeSetStringSpan()'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::span(unsigned short const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::span(unsigned short const*, int, USetSpanCondition) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::span(unsigned short const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::~UnicodeSetStringSpan()'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::spanBack(unsigned short const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::BMPSet::spanBack(unsigned short const*, unsigned short const*, USetSpanCondition) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::spanBack(unsigned short const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::spanBack(unsigned short const*, int, USetSpanCondition) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::spanBack(unsigned short const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::UnicodeSetStringSpan(icu_53::UnicodeSet const&, icu_53::UVector const&, unsigned int)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::spanBack(unsigned short const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::spanBack(unsigned short const*, int, USetSpanCondition) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::spanUTF8(char const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::BMPSet::spanUTF8(unsigned char const*, int, USetSpanCondition) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::spanUTF8(char const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::spanUTF8(unsigned char const*, int, USetSpanCondition) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::spanUTF8(char const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::UnicodeSetStringSpan(icu_53::UnicodeSet const&, icu_53::UVector const&, unsigned int)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::spanUTF8(char const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::spanUTF8(unsigned char const*, int, USetSpanCondition) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::spanBackUTF8(char const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::BMPSet::spanBackUTF8(unsigned char const*, int, USetSpanCondition) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::spanBackUTF8(char const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::spanBackUTF8(unsigned char const*, int, USetSpanCondition) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::spanBackUTF8(char const*, int, USetSpanCondition) const: error: undefined reference to 'icu_53::UnicodeSetStringSpan::spanBackUTF8(unsigned char const*, int, USetSpanCondition) const'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::operator=(icu_53::UnicodeSet const&): error: undefined reference to 'icu_53::BMPSet::BMPSet(icu_53::BMPSet const&, int const*, int)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset.o:uniset.cpp:function icu_53::UnicodeSet::operator=(icu_53::UnicodeSet const&): error: undefined reference to 'icu_53::UnicodeSetStringSpan::UnicodeSetStringSpan(icu_53::UnicodeSetStringSpan const&, icu_53::UVector const&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset_props.o:uniset_props.cpp:function icu_53::UnicodeSet::getInclusions(int, UErrorCode&): error: undefined reference to 'icu_53::umtx_initImplPreInit(icu_53::UInitOnce&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset_props.o:uniset_props.cpp:function icu_53::UnicodeSet::getInclusions(int, UErrorCode&): error: undefined reference to 'icu_53::umtx_initImplPostInit(icu_53::UInitOnce&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset_props.o:uniset_props.cpp:function icu_53::UnicodeSet::applyPropertyAlias(icu_53::UnicodeString const&, icu_53::UnicodeString const&, UErrorCode&): error: undefined reference to 'u_charFromName_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr_case.o:unistr_case.cpp:function icu_53::UnicodeString::doCaseCompare(int, int, unsigned short const*, int, int, unsigned int) const: error: undefined reference to 'u_strcmpFold_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr_case.o:unistr_case.cpp:function icu_53::UnicodeString::caseMap(UCaseMap const*, int (*)(UCaseMap const*, unsigned short*, int, unsigned short const*, int, UErrorCode*)): error: undefined reference to 'u_memcpy_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr_case.o:unistr_case.cpp:function icu_53::UnicodeString::foldCase(unsigned int): error: undefined reference to 'ustrcase_internalFold_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr_cnv.o:unistr_cnv.cpp:function icu_53::UnicodeString::doExtract(int, int, char*, int, UConverter*, UErrorCode&) const: error: undefined reference to 'u_terminateChars_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr_cnv.o:unistr_cnv.cpp:function icu_53::UnicodeString::extract(int, int, char*, unsigned int, char const*) const: error: undefined reference to 'u_terminateChars_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr_cnv.o:unistr_cnv.cpp:function icu_53::UnicodeString::extract(char*, int, UConverter*, UErrorCode&) const: error: undefined reference to 'u_terminateChars_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::unescapeAt(int&) const: error: undefined reference to 'u_unescapeAt_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::doCompareCodePointOrder(int, int, unsigned short const*, int, int) const: error: undefined reference to 'uprv_strCompare_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::countChar32(int, int) const: error: undefined reference to 'u_countChar32_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::hasMoreChar32Than(int, int, int) const: error: undefined reference to 'u_strHasMoreChar32Than_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::toUTF8(int, int, char*, int) const: error: undefined reference to 'u_strToUTF8WithSub_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::toUTF8(icu_53::ByteSink&) const: error: undefined reference to 'u_strToUTF8WithSub_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::toUTF8(icu_53::ByteSink&) const: error: undefined reference to 'u_strToUTF8WithSub_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::toUTF32(int*, int, UErrorCode&) const: error: undefined reference to 'u_strToUTF32WithSub_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::indexOf(unsigned short const*, int, int, int, int) const: error: undefined reference to 'u_strFindFirst_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::doIndexOf(unsigned short, int, int) const: error: undefined reference to 'u_memchr_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::doIndexOf(int, int, int) const: error: undefined reference to 'u_memchr32_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::lastIndexOf(unsigned short const*, int, int, int, int) const: error: undefined reference to 'u_strFindLast_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::doLastIndexOf(unsigned short, int, int) const: error: undefined reference to 'u_memrchr_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::doLastIndexOf(int, int, int) const: error: undefined reference to 'u_memrchr32_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::doHashCode() const: error: undefined reference to 'ustr_hashUCharsN_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::doReplace(int, int, unsigned short const*, int, int): error: undefined reference to 'u_memcpy_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::fromUTF32(int const*, int): error: undefined reference to 'u_strFromUTF32WithSub_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr.o:unistr.cpp:function icu_53::UnicodeString::setToUTF8(icu_53::StringPiece const&): error: undefined reference to 'u_strFromUTF8WithSub_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unormcmp.o:unormcmp.cpp:function unorm_compare_53: error: undefined reference to 'u_memcpy_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unormcmp.o:unormcmp.cpp:function unorm_compare_53: error: undefined reference to 'u_memcpy_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/usprep.o:usprep.cpp:function usprep_open_53: error: undefined reference to 'utrie_unserialize_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locavailable.o:locavailable.cpp:function loadInstalledLocales(): error: undefined reference to 'ures_openDirect_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locavailable.o:locavailable.cpp:function loadInstalledLocales(): error: undefined reference to 'ures_getByKey_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locavailable.o:locavailable.cpp:function loadInstalledLocales(): error: undefined reference to 'ures_getSize_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locavailable.o:locavailable.cpp:function loadInstalledLocales(): error: undefined reference to 'ures_resetIterator_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locavailable.o:locavailable.cpp:function loadInstalledLocales(): error: undefined reference to 'ures_getNextString_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locavailable.o:locavailable.cpp:function loadInstalledLocales(): error: undefined reference to 'ures_hasNext_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function _getStringOrCopyKey(char const*, char const*, char const*, char const*, char const*, char const*, unsigned short*, int, UErrorCode*): error: undefined reference to 'ures_open_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function _getStringOrCopyKey(char const*, char const*, char const*, char const*, char const*, char const*, unsigned short*, int, UErrorCode*): error: undefined reference to 'ures_getStringByKey_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayLanguage_53: error: undefined reference to 'uloc_getLanguage_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayScript_53: error: undefined reference to 'uloc_getScript_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayScriptInContext_53: error: undefined reference to 'uloc_getScript_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayCountry_53: error: undefined reference to 'uloc_getCountry_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayVariant_53: error: undefined reference to 'uloc_getVariant_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayKeywordValue_53: error: undefined reference to 'uloc_getKeywordValue_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayKeywordValue_53: error: undefined reference to 'ures_getByKey_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayKeywordValue_53: error: undefined reference to 'ures_getByKeyWithFallback_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayKeywordValue_53: error: undefined reference to 'ures_getStringByIndex_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayName_53: error: undefined reference to 'ures_getByKeyWithFallback_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayName_53: error: undefined reference to 'ures_getStringByKeyWithFallback_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayName_53: error: undefined reference to 'ures_getStringByKeyWithFallback_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayName_53: error: undefined reference to 'u_strstr_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayName_53: error: undefined reference to 'u_strstr_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayName_53: error: undefined reference to 'u_strstr_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayName_53: error: undefined reference to 'u_strstr_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayName_53: error: undefined reference to 'u_strchr_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayName_53: error: undefined reference to 'u_strncmp_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayName_53: error: undefined reference to 'uloc_openKeywords_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locdispnames.o:locdispnames.cpp:function uloc_getDisplayName_53: error: undefined reference to 'u_memmove_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/loclikely.o:loclikely.cpp:function parseTagString(char const*, char*, int*, char*, int*, char*, int*, UErrorCode*): error: undefined reference to 'ulocimp_getLanguage_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/loclikely.o:loclikely.cpp:function parseTagString(char const*, char*, int*, char*, int*, char*, int*, UErrorCode*): error: undefined reference to 'ulocimp_getScript_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/loclikely.o:loclikely.cpp:function parseTagString(char const*, char*, int*, char*, int*, char*, int*, UErrorCode*): error: undefined reference to 'ulocimp_getCountry_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/loclikely.o:loclikely.cpp:function createTagStringWithAlternates(char const*, int, char const*, int, char const*, int, char const*, int, char const*, char*, int, UErrorCode*): error: undefined reference to 'uloc_getCountry_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/loclikely.o:loclikely.cpp:function createTagStringWithAlternates(char const*, int, char const*, int, char const*, int, char const*, int, char const*, char*, int, UErrorCode*): error: undefined reference to 'uloc_getLanguage_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/loclikely.o:loclikely.cpp:function createTagStringWithAlternates(char const*, int, char const*, int, char const*, int, char const*, int, char const*, char*, int, UErrorCode*): error: undefined reference to 'uloc_getScript_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/loclikely.o:loclikely.cpp:function findLikelySubtags(char const*, char*, int, UErrorCode*) [clone .part.0] [clone .constprop.2]: error: undefined reference to 'ures_openDirect_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/loclikely.o:loclikely.cpp:function findLikelySubtags(char const*, char*, int, UErrorCode*) [clone .part.0] [clone .constprop.2]: error: undefined reference to 'ures_getStringByKey_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/loclikely.o:loclikely.cpp:function uloc_addLikelySubtags_53: error: undefined reference to 'uloc_canonicalize_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locresdata.o:locresdata.cpp:function uloc_getTableStringWithFallback_53: error: undefined reference to 'ures_getStringByKeyWithFallback_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locresdata.o:locresdata.cpp:function uloc_getTableStringWithFallback_53: error: undefined reference to 'ures_getByKeyWithFallback_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locresdata.o:locresdata.cpp:function uloc_getTableStringWithFallback_53: error: undefined reference to 'ures_getStringByKeyWithFallback_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locresdata.o:locresdata.cpp:function uloc_getTableStringWithFallback_53: error: undefined reference to 'uloc_getCurrentCountryID_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/locresdata.o:locresdata.cpp:function uloc_getTableStringWithFallback_53: error: undefined reference to 'uloc_getCurrentLanguageID_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/normalizer2impl.o:normalizer2impl.cpp:function icu_53::ReorderingBuffer::equals(unsigned short const*, unsigned short const*) const: error: undefined reference to 'u_memcmp_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/normalizer2impl.o:normalizer2impl.cpp:function icu_53::Normalizer2Impl::decompose(unsigned short const*, unsigned short const*, icu_53::ReorderingBuffer*, UErrorCode&) const: error: undefined reference to 'u_strchr_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/normalizer2impl.o:normalizer2impl.cpp:function icu_53::Normalizer2Impl::decomposeAndAppend(unsigned short const*, unsigned short const*, signed char, icu_53::UnicodeString&, icu_53::ReorderingBuffer&, UErrorCode&) const: error: undefined reference to 'u_strchr_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/normalizer2impl.o:normalizer2impl.cpp:function icu_53::Normalizer2Impl::composeQuickCheck(unsigned short const*, unsigned short const*, signed char, UNormalizationCheckResult*) const: error: undefined reference to 'u_strchr_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/normalizer2impl.o:normalizer2impl.cpp:function icu_53::CanonIterData::CanonIterData(UErrorCode&): error: undefined reference to 'utrie2_open_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/normalizer2impl.o:normalizer2impl.cpp:function icu_53::CanonIterData::addToStartSet(int, int, UErrorCode&): error: undefined reference to 'utrie2_set32_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/normalizer2impl.o:normalizer2impl.cpp:function icu_53::CanonIterData::addToStartSet(int, int, UErrorCode&): error: undefined reference to 'utrie2_set32_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/normalizer2impl.o:normalizer2impl.cpp:function icu_53::Normalizer2Impl::makeCanonIterDataFromNorm16(int, int, unsigned short, icu_53::CanonIterData&, UErrorCode&) const: error: undefined reference to 'utrie2_set32_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/normalizer2impl.o:normalizer2impl.cpp:function icu_53::Normalizer2Impl::makeCanonIterDataFromNorm16(int, int, unsigned short, icu_53::CanonIterData&, UErrorCode&) const: error: undefined reference to 'utrie2_set32_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/normalizer2impl.o:normalizer2impl.cpp:function initCanonIterData: error: undefined reference to 'utrie2_freeze_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uprops.o:uprops.cpp:function changesWhenCasefolded(BinaryProperty const&, int, UProperty): error: undefined reference to 'u_strFoldCase_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uprops.o:uprops.cpp:function changesWhenCasefolded(BinaryProperty const&, int, UProperty): error: undefined reference to 'u_strCompare_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uts46.o:uts46.cpp:function icu_53::UTS46::mapDevChars(icu_53::UnicodeString&, int, int, UErrorCode&) const: error: undefined reference to 'u_memmove_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/bytestriebuilder.o:bytestriebuilder.cpp:function icu_53::BytesTrieBuilder::BTLinearMatchNode::BTLinearMatchNode(char const*, int, icu_53::StringTrieBuilder::Node*): error: undefined reference to 'ustr_hashCharsN_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucharstriebuilder.o:ucharstriebuilder.cpp:function icu_53::UCharsTrieBuilder::UCTLinearMatchNode::operator==(icu_53::StringTrieBuilder::Node const&) const: error: undefined reference to 'u_memcmp_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucharstriebuilder.o:ucharstriebuilder.cpp:function icu_53::UCharsTrieBuilder::UCTLinearMatchNode::UCTLinearMatchNode(unsigned short const*, int, icu_53::StringTrieBuilder::Node*): error: undefined reference to 'ustr_hashUCharsN_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustrcase_locale.o:ustrcase_locale.cpp:function ustrcase_setTempCaseMapLocale_53: error: undefined reference to 'uloc_getDefault_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustrcase_locale.o:ustrcase_locale.cpp:function u_strToLower_53: error: undefined reference to 'ustrcase_map_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustrcase_locale.o:ustrcase_locale.cpp:function u_strToLower_53: error: undefined reference to 'ustrcase_internalToLower_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustrcase_locale.o:ustrcase_locale.cpp:function u_strToUpper_53: error: undefined reference to 'ustrcase_map_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustrcase_locale.o:ustrcase_locale.cpp:function u_strToUpper_53: error: undefined reference to 'ustrcase_internalToUpper_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr_titlecase_brkiter.o:unistr_titlecase_brkiter.cpp:function unistr_case_internalToTitle(UCaseMap const*, unsigned short*, int, unsigned short const*, int, UErrorCode*): error: undefined reference to 'ustrcase_internalToTitle_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr_titlecase_brkiter.o:unistr_titlecase_brkiter.cpp:function icu_53::UnicodeString::toTitle(icu_53::BreakIterator*, icu_53::Locale const&, unsigned int): error: undefined reference to 'icu_53::BreakIterator::createWordInstance(icu_53::Locale const&, UErrorCode&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uniset_closure.o:uniset_closure.cpp:function icu_53::UnicodeSet::closeOver(int) [clone .part.8]: error: undefined reference to 'icu_53::BreakIterator::createWordInstance(icu_53::Locale const&, UErrorCode&)'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustr_titlecase_brkiter.o:ustr_titlecase_brkiter.cpp:function u_strToTitle_53: error: undefined reference to 'ustrcase_map_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustr_titlecase_brkiter.o:ustr_titlecase_brkiter.cpp:function u_strToTitle_53: error: undefined reference to 'ustrcase_map_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustr_titlecase_brkiter.o:ustr_titlecase_brkiter.cpp:function u_strToTitle_53: error: undefined reference to 'ustrcase_internalToTitle_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ustr_titlecase_brkiter.o:ustr_titlecase_brkiter.cpp:function ucasemap_toTitle_53: error: undefined reference to 'ustrcase_internalToTitle_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr_case_locale.o:unistr_case_locale.cpp:function icu_53::UnicodeString::toLower(icu_53::Locale const&): error: undefined reference to 'ustrcase_internalToLower_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/unistr_case_locale.o:unistr_case_locale.cpp:function icu_53::UnicodeString::toUpper(icu_53::Locale const&): error: undefined reference to 'ustrcase_internalToUpper_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucat.o:ucat.c:function u_catgets_53: error: undefined reference to 'ures_getStringByKey_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnv.o:ucnv.c:function ucnv_getCCSID_53: error: undefined reference to 'ucnv_getStandardName_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnvmbcs.o:ucnvmbcs.c:function _extFromU.isra.3: error: undefined reference to 'ucnv_extInitialMatchFromU_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnvmbcs.o:ucnvmbcs.c:function ucnv_MBCSToUnicodeWithOffsets_53: error: undefined reference to 'ucnv_extContinueMatchToU_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnvmbcs.o:ucnvmbcs.c:function ucnv_MBCSToUnicodeWithOffsets_53: error: undefined reference to 'ucnv_extInitialMatchToU_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnvmbcs.o:ucnvmbcs.c:function ucnv_MBCSToUnicodeWithOffsets_53: error: undefined reference to 'ucnv_extInitialMatchToU_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnvmbcs.o:ucnvmbcs.c:function ucnv_MBCSToUnicodeWithOffsets_53: error: undefined reference to 'ucnv_extInitialMatchToU_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnvmbcs.o:ucnvmbcs.c:function ucnv_MBCSFromUnicodeWithOffsets_53: error: undefined reference to 'ucnv_extContinueMatchFromU_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnvmbcs.o:ucnvmbcs.c:function ucnv_MBCSGetFilteredUnicodeSetForUnicode_53: error: undefined reference to 'ucnv_extGetUnicodeSet_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/ucnvmbcs.o:ucnvmbcs.c:function ucnv_MBCSSimpleGetNextUChar_53: error: undefined reference to 'ucnv_extSimpleMatchToU_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uhash.o:uhash.c:function uhash_hashUChars_53: error: undefined reference to 'ustr_hashUCharsN_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uhash.o:uhash.c:function uhash_hashChars_53: error: undefined reference to 'ustr_hashCharsN_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uhash.o:uhash.c:function uhash_hashIChars_53: error: undefined reference to 'ustr_hashICharsN_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uscript.o:uscript.c:function uscript_getCode_53: error: undefined reference to 'ures_getByKey_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uscript.o:uscript.c:function uscript_getCode_53: error: undefined reference to 'ures_getNextString_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uscript.o:uscript.c:function uscript_getCode_53: error: undefined reference to 'ures_hasNext_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/propsvec.o:propsvec.c:function upvec_compactToUTrie2Handler_53: error: undefined reference to 'utrie2_open_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/propsvec.o:propsvec.c:function upvec_compactToUTrie2Handler_53: error: undefined reference to 'utrie2_setRange32_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/propsvec.o:propsvec.c:function upvec_compactToUTrie2WithRowIndexes_53: error: undefined reference to 'utrie2_freeze_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'locale_getKeywordsStart_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'uloc_openKeywords_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'uloc_getVariant_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'uloc_getLanguage_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'uloc_getScript_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'uloc_getCountry_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'uloc_getVariant_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'uloc_openKeywords_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'uloc_getKeywordValue_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'uloc_openKeywords_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'ures_openDirect_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'ures_openDirect_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_toLanguageTag_53: error: undefined reference to 'uloc_getKeywordValue_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_forLanguageTag_53: error: undefined reference to 'ures_getNextResource_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_forLanguageTag_53: error: undefined reference to 'ures_hasNext_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_forLanguageTag_53: error: undefined reference to 'ures_getNextResource_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_forLanguageTag_53: error: undefined reference to 'ures_getString_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_forLanguageTag_53: error: undefined reference to 'ures_getNextResource_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_forLanguageTag_53: error: undefined reference to 'ures_getString_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_forLanguageTag_53: error: undefined reference to 'ures_getKey_53'
+/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/uloc_tag.o:uloc_tag.c:function uloc_forLanguageTag_53: error: undefined reference to 'ures_getKey_53'
+collect2: error: ld returned 1 exit status
+[36mInstall: /home/rijul/android/temasek/cm-12.1/out/target/product/titan/system/lib/libcompiler_rt.so[0m
+build/core/shared_library_internal.mk:68: recipe for target '/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/LINKED/libicuuc.so' failed
+make: *** [/home/rijul/android/temasek/cm-12.1/out/target/product/titan/obj/SHARED_LIBRARIES/libicuuc_intermediates/LINKED/libicuuc.so] Error 1
+make: *** Waiting for unfinished jobs....
+[33mNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.[0m
+Deleting @IntDef and @StringDef annotation class files
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/service/voice/AlwaysOnHotwordDetector$ManageActions.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/service/voice/AlwaysOnHotwordDetector$RecognitionModes.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/service/voice/AlwaysOnHotwordDetector$RecognitionFlags.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$FindViewFlags.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$LayoutDir.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/Surface$Rotation.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$ResolvedLayoutDir.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$FocusRealDirection.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/WindowManagerPolicy$UserRotationMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$Visibility.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$ScrollBarStyle.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$FocusDirection.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$DrawingCacheQuality.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$FocusableMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/view/View$TextAlignment.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/pm/ActivityInfo$ScreenOrientation.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/pm/PackageManager$PermissionResult.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/Intent$FillInFlags.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/Intent$GrantUriMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/Context$CreatePackageOptions.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/Context$BindServiceFlags.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/Intent$AccessUriMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/content/Context$ServiceName.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/AudioTrack$WriteMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/AudioAttributes$AttributeContentType.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/browse/MediaBrowser$MediaItem$Flags.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/AudioFormat$Encoding.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/audiopolicy/AudioMix$RouteFlags.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/audiopolicy/AudioPolicy$PolicyStatus.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/AudioAttributes$AttributeUsage.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/audiofx/Virtualizer$VirtualizationMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/audiofx/Virtualizer$ForceVirtualizationMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/media/session/MediaSession$SessionFlags.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/graphics/pdf/PdfRenderer$RenderMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/graphics/Canvas$Saveflags.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/Toast$Duration.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/LinearLayout$DividerMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/GridLayout$Orientation.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/GridLayout$AlignmentMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/NumberPicker$OnScrollListener$ScrollState.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/LinearLayout$OrientationMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/widget/GridView$StretchMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/app/Activity$DefaultKeyMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/app/PendingIntent$Flags.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/app/ActionBar$NavigationMode.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/app/Notification$Priority.class
+Deleting /home/rijul/android/temasek/cm-12.1/out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/classes/android/app/ActionBar$DisplayOptions.class
+make: Leaving directory '/home/rijul/android/temasek/cm-12.1'
+
+#### make failed to build some targets (08:13 (mm:ss)) ####
+
+]0;[arm-cm_titan-userdebug] rijul@rijul-Ubuntu: /home/rijul/android/temasek/cm-12.1]0;rijul@rijul-Ubuntu: ~/android/temasek/cm-12.1rijul@rijul-Ubuntu:~/android/temasek/cm-12.1$ [K]0;rijul@rijul-Ubuntu: ~/android/temasek/cm-12.1rijul@rijul-Ubuntu:~/android/temasek/cm-12.1$ exit
+exit
+
+Script done on Friday 11 December 2015 03:09:03 PM IST
