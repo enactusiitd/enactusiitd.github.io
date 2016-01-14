@@ -3599,3 +3599,6 @@
 127.0.0.1 - - [11/Jan/2016:19:25:49 +0530] "GET /Apply/14/ HTTP/1.1" 200 1861 "http://localhost/Apply/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0"
 127.0.0.1 - - [11/Jan/2016:19:25:53 +0530] "GET /Apply/14/Project.html HTTP/1.1" 200 1745 "http://localhost/Apply/14/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0"
 127.0.0.1 - - [11/Jan/2016:19:26:04 +0530] "GET /Apply/15/Project.html HTTP/1.1" 200 1743 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0"
+127.0.0.1 - - [14/Jan/2016:17:07:24 +0530] "GET / HTTP/1.1" 200 2438 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0"
+127.0.0.1 - - [14/Jan/2016:17:07:26 +0530] "GET /fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 181 "http://localhost/css/font-awesome.min.css" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0"
+127.0.0.1 - - [14/Jan/2016:17:07:44 +0530] "GET /Apply/ HTTP/1.1" 200 1728 "http://localhost/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:43.0) Gecko/20100101 Firefox/43.0"
