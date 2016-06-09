@@ -1,4 +1,0 @@
-<Files *.png> 
-  ExpiresActive on 
-  ExpiresDefault "access plus 1 year"
-</Files>
